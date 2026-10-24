@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#1d2430"/>
+  <!-- three server rows -->
+  <rect x="12" y="13" width="40" height="11" rx="5.5" fill="#2e3a4b"/>
+  <rect x="12" y="41" width="40" height="11" rx="5.5" fill="#2e3a4b"/>
+  <!-- the row being dragged: lifted, with a shadow under it -->
+  <rect x="12" y="25" width="40" height="11" rx="5.5" fill="#000000" opacity="0.35" transform="translate(0 3)"/>
+  <rect x="12" y="25" width="40" height="11" rx="5.5" fill="#00a65a"/>
+  <!-- six-dot drag handle on the lifted row -->
+  <g fill="#ffffff">
+    <circle cx="19" cy="27.5" r="1.2"/><circle cx="22.5" cy="27.5" r="1.2"/>
+    <circle cx="19" cy="30.5" r="1.2"/><circle cx="22.5" cy="30.5" r="1.2"/>
+    <circle cx="19" cy="33.5" r="1.2"/><circle cx="22.5" cy="33.5" r="1.2"/>
+  </g>
+  <!-- short bars standing in for server names -->
+  <rect x="29" y="28.5" width="16" height="2.5" rx="1.25" fill="#ffffff" opacity="0.9"/>
+  <rect x="29" y="32.5" width="10" height="2.5" rx="1.25" fill="#ffffff" opacity="0.6"/>
+</svg>

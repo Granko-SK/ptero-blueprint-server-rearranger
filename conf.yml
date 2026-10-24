@@ -1,0 +1,37 @@
+info:
+  name: "Server order"
+  identifier: "serverorder"
+  description: "Drag servers into your own order on the admin Servers page. The same order is used on the dashboard."
+  flags: ""
+  version: "1.0.0"
+  target: "beta-2025-11"
+  author: "Dominik Jordanov"
+  icon: "icon.svg"
+  website: ""
+
+admin:
+  view: "admin/view.blade.php"
+  controller: "admin/controller.php"
+  css: ""
+  wrapper: "wrapper.blade.php"
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: ""
+  public: ""
+  console: ""
+
+requests:
+  views: ""
+  app: ""
+  routers:
+    application: ""
+    client: "routes/client.php"
+    web: ""
+
+database:
+  migrations: ""
