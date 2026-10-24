@@ -13,7 +13,7 @@ You can edit the server order from the admin panel under the Servers category an
 
 # Compatibility
 
-Built for Blueprint target beta-2025-11. Tested on beta-2026-08.
+Built for Blueprint target beta-2025-11. Tested on beta-2026-08. Tested on pterodactyl versions 1.15.1 and 1.15.2.
 
 # Limitations
 **- Layout changes in pterodactyl might break the extension until i update it**
