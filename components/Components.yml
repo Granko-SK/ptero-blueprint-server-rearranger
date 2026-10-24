@@ -1,0 +1,5 @@
+# Places the ServerOrder component at the top of the dashboard's server list.
+# It renders nothing; it only sorts the list to match the saved order.
+Dashboard:
+  Serverlist:
+    BeforeContent: 'ServerOrder'
