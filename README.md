@@ -18,7 +18,7 @@ Built for Blueprint target beta-2025-11. Tested on beta-2026-08. Tested on ptero
 # Limitations
 **- Layout changes in pterodactyl might break the extension until i update it**
 
-**- I only tested it on my own already set up panel. I also tried it with the Darkenate theme installed. I HAVEN'T TESTED IT ON A CLEAN PANEL!**
+**- I only tested it on my own already set up panel. I also tried it with the Darkenate theme installed (so it should work with other themes installed). I HAVEN'T TESTED IT ON A CLEAN PANEL!**
 
 **- The order is the same for every user on the dashboard. Each user only sees the servers they can access.**
 
