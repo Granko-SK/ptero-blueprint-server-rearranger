@@ -5,15 +5,31 @@ You can edit the server order from the admin panel under the Servers category an
 # Installation
 This assumes you already have Blueprint installed. If not, install it first: https://blueprint.zip/guides/admin/install
 
-**Automatic one command insatllation:** `cd /var/www/pterodactyl && curl -fsSL -o serverorder.blueprint https://github.com/Granko-SK/ptero-blueprint-server-rearranger/releases/download/release/serverorder.blueprint && sudo blueprint -install serverorder`
+**Automatic one command insatllation:**
 
-**Manual installation: Download and move the `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command: `sudo blueprint -install serverorder`**
+```bash
+cd /var/www/pterodactyl && curl -fsSL -o serverorder.blueprint https://github.com/Granko-SK/ptero-blueprint-server-rearranger/releases/download/release/serverorder.blueprint && sudo blueprint -install serverorder
+```
+
+**Manual installation: Download and move the `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command:**
+
+```bash
+sudo blueprint -install serverorder
+```
 
 # Updating the extension
-**Updating is the same process as installing. Move the new `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command: `sudo blueprint -install serverorder`**
+**Updating is the same process as installing. Move the new `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command:**
+
+```bash
+sudo blueprint -install serverorder
+```
 
 # Removing the extension
-**To remove, first open the extension's settings and click Reset order so the server order file gets removed. Then, `cd` into the folder you installed the blueprint from (likely `/var/www/pterodactyl`). then, run `sudo blueprint -remove serverorder`**
+**To remove, first open the extension's settings and click Reset order so the server order file gets removed. Then, `cd` into the folder you installed the blueprint from (likely `/var/www/pterodactyl`). then, run:**
+
+```bash
+sudo blueprint -remove serverorder
+```
 
 # Compatibility
 
