@@ -3,8 +3,11 @@
 You can edit the server order from the admin panel under the Servers category and drag the servers to change the order. A simple thing that pterodactyl doesn't support out of the box for some reason.
 
 # Installation
-**Automatic insatllation: `cd /var/www/pterodactyl && curl -fsSL -o serverorder.blueprint https://github.com/Granko-SK/ptero-blueprint-server-rearranger/releases/download/release/serverorder.blueprint && sudo blueprint -install serverorder`**
-**To install, move the `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command: `sudo blueprint -install serverorder`**
+This assumes you already have Blueprint installed. If not, install it first: https://blueprint.zip/guides/admin/install
+
+**Automatic one command insatllation:** `cd /var/www/pterodactyl && curl -fsSL -o serverorder.blueprint https://github.com/Granko-SK/ptero-blueprint-server-rearranger/releases/download/release/serverorder.blueprint && sudo blueprint -install serverorder`
+
+**Manual installation: Download and move the `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command: `sudo blueprint -install serverorder`**
 
 # Updating the extension
 **Updating is the same process as installing. Move the new `serverorder.blueprint` file to `/var/www/pterodactyl` (or wherever you have your pterodactyl files), `cd` into that folder and run the blueprint install command: `sudo blueprint -install serverorder`**
